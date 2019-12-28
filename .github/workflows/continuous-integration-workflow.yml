@@ -23,4 +23,4 @@ jobs:
           pwd
           ls -la
           npm install
-          npm test    
+          npm test
