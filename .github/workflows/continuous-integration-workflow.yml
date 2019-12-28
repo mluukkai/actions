@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: working dir
-        run: | 
-          pwd   
+        run: |
+          pwd
           ls -la
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
