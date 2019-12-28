@@ -24,3 +24,5 @@ jobs:
           ls -la
           npm install
           npm test
+      - name: My first step
+        uses: ./.github/actions/hello         
